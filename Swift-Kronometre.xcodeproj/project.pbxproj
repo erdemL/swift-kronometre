@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D5E3D90C1A767444007558F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3D90B1A767444007558F3 /* AppDelegate.swift */; };
-		D5E3D90E1A767444007558F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3D90D1A767444007558F3 /* ViewController.swift */; };
 		D5E3D9111A767444007558F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E3D90F1A767444007558F3 /* Main.storyboard */; };
 		D5E3D9131A767444007558F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E3D9121A767444007558F3 /* Images.xcassets */; };
 		D5E3D9161A767444007558F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E3D9141A767444007558F3 /* LaunchScreen.xib */; };
 		D5E3D9221A767444007558F3 /* Swift_KronometreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3D9211A767444007558F3 /* Swift_KronometreTests.swift */; };
+		D5E3D92C1A76754A007558F3 /* SWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3D92B1A76754A007558F3 /* SWViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		D5E3D9061A767444007558F3 /* Swift-Kronometre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Kronometre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E3D90A1A767444007558F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E3D90B1A767444007558F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5E3D90D1A767444007558F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5E3D9101A767444007558F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5E3D9121A767444007558F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D5E3D9151A767444007558F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D5E3D91B1A767444007558F3 /* Swift-KronometreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-KronometreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E3D9201A767444007558F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E3D9211A767444007558F3 /* Swift_KronometreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_KronometreTests.swift; sourceTree = "<group>"; };
+		D5E3D92B1A76754A007558F3 /* SWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D5E3D90B1A767444007558F3 /* AppDelegate.swift */,
-				D5E3D90D1A767444007558F3 /* ViewController.swift */,
+				D5E3D92B1A76754A007558F3 /* SWViewController.swift */,
 				D5E3D90F1A767444007558F3 /* Main.storyboard */,
 				D5E3D9121A767444007558F3 /* Images.xcassets */,
 				D5E3D9141A767444007558F3 /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E3D90E1A767444007558F3 /* ViewController.swift in Sources */,
+				D5E3D92C1A76754A007558F3 /* SWViewController.swift in Sources */,
 				D5E3D90C1A767444007558F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
